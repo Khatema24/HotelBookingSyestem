@@ -23,7 +23,7 @@ public class HotelBookingApp extends Application {
         Label emailLabel = new Label("Email:");
         TextField emailField = new TextField();
 
-        Key registerButton = new Button("Register");
+        Button registerButton = new Button("Register");
         registerButton.setOnAction(e ->
                 registerCustomer(nameField.getText(), emailField.getText()));
 
