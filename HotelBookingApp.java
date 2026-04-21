@@ -17,7 +17,7 @@ public class HotelBookingApp extends Application {
         Database.initializeDatabase();
 
         // UI Elements
-        Label nameLabel = new Label("Customer Name:");
+        Label fullName = new Label("Customer Name:");
         TextField nameField = new TextField();
 
         Label emailLabel = new Label("Email:");
